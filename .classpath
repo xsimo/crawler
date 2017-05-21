@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="org/apache/http/examples/entity/mime/ClientMultipartFormPost.java" kind="src" path="src/main/java"/>
+	<classpathentry excluding="http-client-src/|http-core-src/" kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/main/test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="src/main/resources/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/httpclient-4.0.jar" sourcepath="src/main/resources/http-client-src"/>
+	<classpathentry kind="lib" path="src/main/resources/httpcore-4.0.1.jar" sourcepath="src/main/resources/http-core-src"/>
+	<classpathentry kind="lib" path="junit-4.7.jar"/>
+	<classpathentry kind="output" path="target"/>
+</classpath>
